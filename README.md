@@ -118,8 +118,8 @@ LangGraph 在这里不是为了增加节点数量，而是为了把“未经校�
 需要 Python 3.11 或更高版本。
 
 ```powershell
-git clone <你的仓库地址>
-cd unity-game-config-agent
+git clone https://github.com/LogicPaw/Unity-Gameshop-Agent.git
+cd Unity-Gameshop-Agent
 python -m venv .venv
 & .\.venv\Scripts\python.exe -m pip install -e .
 ```
