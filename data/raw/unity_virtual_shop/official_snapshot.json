@@ -1,0 +1,211 @@
+{
+  "source": {
+    "repository": "https://github.com/Unity-Technologies/com.unity.services.samples.use-cases",
+    "commit": "575661c6f83e721e9f20d27f6c66e7249a929889",
+    "commit_url": "https://github.com/Unity-Technologies/com.unity.services.samples.use-cases/commit/575661c6f83e721e9f20d27f6c66e7249a929889",
+    "commit_date": "2026-04-08T20:09:44Z",
+    "retrieved_date": "2026-08-29",
+    "sample": "Assets/Use Case Samples/Virtual Shop"
+  },
+  "resources": [
+    {
+      "id": "COIN",
+      "resource_type": "Currency",
+      "name": "Coin",
+      "max": 0,
+      "sprite_address": "Sprites/Currency/Coin",
+      "source_path": "Assets/Common/Config as Code/COIN.ecc"
+    },
+    {
+      "id": "GEM",
+      "resource_type": "Currency",
+      "name": "Gem",
+      "max": 0,
+      "sprite_address": "Sprites/Currency/Gem",
+      "source_path": "Assets/Common/Config as Code/GEM.ecc"
+    },
+    {
+      "id": "PEARL",
+      "resource_type": "Currency",
+      "name": "Pearl",
+      "max": 0,
+      "sprite_address": "Sprites/Currency/Pearl",
+      "source_path": "Assets/Common/Config as Code/PEARL.ecc"
+    },
+    {
+      "id": "STAR",
+      "resource_type": "Currency",
+      "name": "Star",
+      "max": 0,
+      "sprite_address": "Sprites/Currency/Star",
+      "source_path": "Assets/Common/Config as Code/STAR.ecc"
+    },
+    {
+      "id": "SWORD",
+      "resource_type": "Inventory Item",
+      "name": "Sword",
+      "max": null,
+      "sprite_address": "Sprites/Inventory/Sword",
+      "source_path": "Assets/Common/Config as Code/SWORD.eci"
+    },
+    {
+      "id": "SHIELD",
+      "resource_type": "Inventory Item",
+      "name": "Shield",
+      "max": null,
+      "sprite_address": "Sprites/Inventory/Shield",
+      "source_path": "Assets/Common/Config as Code/SHIELD.eci"
+    }
+  ],
+  "purchases": [
+    {
+      "offer_id": "VIRTUAL_SHOP_1_SWORD_FOR_COINS",
+      "display_name": "Virtual Shop 1 Sword for Coins",
+      "category": "Items",
+      "cost_id": "COIN",
+      "cost_amount": 15,
+      "reward_id": "SWORD",
+      "reward_amount": 1,
+      "badge_text": "",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_1_SWORD_FOR_COINS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_2_SWORD_FOR_COINS",
+      "display_name": "Virtual Shop 2 Sword for Coins",
+      "category": "Items",
+      "cost_id": "COIN",
+      "cost_amount": 20,
+      "reward_id": "SWORD",
+      "reward_amount": 2,
+      "badge_text": "",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_2_SWORD_FOR_COINS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_3_SWORD_FOR_COINS",
+      "display_name": "Virtual Shop 3 Sword for Coins",
+      "category": "Items",
+      "cost_id": "COIN",
+      "cost_amount": 30,
+      "reward_id": "SWORD",
+      "reward_amount": 3,
+      "badge_text": "",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_3_SWORD_FOR_COINS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_1_SHIELD_FOR_COINS",
+      "display_name": "Virtual Shop 1 Shield for Coins",
+      "category": "Items",
+      "cost_id": "COIN",
+      "cost_amount": 10,
+      "reward_id": "SHIELD",
+      "reward_amount": 1,
+      "badge_text": "",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_1_SHIELD_FOR_COINS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_2_SHIELD_FOR_COINS",
+      "display_name": "Virtual Shop 2 Shield for Coins",
+      "category": "Items",
+      "cost_id": "COIN",
+      "cost_amount": 15,
+      "reward_id": "SHIELD",
+      "reward_amount": 2,
+      "badge_text": "",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_2_SHIELD_FOR_COINS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_3_SHIELD_FOR_COINS",
+      "display_name": "Virtual Shop 3 Shield for Coins",
+      "category": "Items",
+      "cost_id": "COIN",
+      "cost_amount": 20,
+      "reward_id": "SHIELD",
+      "reward_amount": 3,
+      "badge_text": "Best Value",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_3_SHIELD_FOR_COINS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_100_COIN_FOR_GEMS",
+      "display_name": "Virtual Shop 100 Coin for Gems",
+      "category": "Currencies",
+      "cost_id": "GEM",
+      "cost_amount": 7,
+      "reward_id": "COIN",
+      "reward_amount": 100,
+      "badge_text": "",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_100_COIN_FOR_GEMS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_250_COIN_FOR_GEMS",
+      "display_name": "Virtual Shop 250 Coin for Gems",
+      "category": "Currencies",
+      "cost_id": "GEM",
+      "cost_amount": 15,
+      "reward_id": "COIN",
+      "reward_amount": 250,
+      "badge_text": "",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_250_COIN_FOR_GEMS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_1000_COIN_FOR_GEMS",
+      "display_name": "Virtual Shop 1000 Coin for Gems",
+      "category": "Currencies",
+      "cost_id": "GEM",
+      "cost_amount": 25,
+      "reward_id": "COIN",
+      "reward_amount": 1000,
+      "badge_text": "Best Value",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_1000_COIN_FOR_GEMS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_1_STAR_FOR_COINS",
+      "display_name": "Virtual Shop 1 Star for Coins",
+      "category": "Currencies",
+      "cost_id": "COIN",
+      "cost_amount": 25,
+      "reward_id": "STAR",
+      "reward_amount": 1,
+      "badge_text": "",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_1_STAR_FOR_COINS.ecv"
+    },
+    {
+      "offer_id": "VIRTUAL_SHOP_3_PEARL_FOR_COINS",
+      "display_name": "Virtual Shop 3 Pearl for Coins",
+      "category": "Currencies",
+      "cost_id": "COIN",
+      "cost_amount": 50,
+      "reward_id": "PEARL",
+      "reward_amount": 3,
+      "badge_text": "",
+      "enabled": true,
+      "source_path": "Assets/Use Case Samples/Virtual Shop/Config as Code/VIRTUAL_SHOP_3_PEARL_FOR_COINS.ecv"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Items",
+      "enabled": true,
+      "offer_count": 6
+    },
+    {
+      "id": "Currencies",
+      "enabled": true,
+      "offer_count": 5
+    },
+    {
+      "id": "IAP",
+      "enabled": false,
+      "offer_count": 0
+    }
+  ]
+}

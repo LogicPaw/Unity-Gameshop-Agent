@@ -1,0 +1,20 @@
+[
+  {
+    "item_name": "剑",
+    "currency_name": "金币",
+    "cost_amount": 15
+  },
+  {
+    "item_name": "盾牌",
+    "reward_amount": 3,
+    "currency_name": "金币",
+    "cost_amount": 20,
+    "badge_text": "Best Value"
+  },
+  {
+    "item_name": "金币",
+    "reward_amount": 100,
+    "currency_name": "宝石",
+    "cost_amount": 7
+  }
+]

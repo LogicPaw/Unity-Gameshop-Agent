@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Virtual Shop Config"
+  short_description: "Extract and validate Unity virtual shop offer requirements"
+  default_prompt: "Use $unity-virtual-shop-config to convert my shop requirement into validated offer candidates."

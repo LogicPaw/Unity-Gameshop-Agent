@@ -1,0 +1,2 @@
+offer_id,display_name,category,reward_id,reward_amount,cost_id,cost_amount,badge_text,enabled
+VIRTUAL_SHOP_1_SWORD_FOR_COINS,Virtual Shop 1 Sword for Coins,Items,SWORD,1,COIN,15,,true

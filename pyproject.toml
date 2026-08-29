@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "game-config-agent"
+version = "0.1.0"
+description = "Deterministic core for generating validated Unity game configuration CSV files."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "gradio>=6,<7",
+  "langchain-openai>=1.0,<2",
+  "langgraph>=1.0,<2",
+  "mcp[cli]>=2,<3",
+  "pydantic>=2.10,<3",
+  "python-dotenv>=1.1,<2",
+]
+
+[project.scripts]
+game-config = "game_config_agent.cli:main"
+game-config-agent = "game_config_agent.agent_cli:main"
+game-config-mcp = "game_config_agent.mcp_server:main"
+game-config-ui = "game_config_agent.gradio_app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

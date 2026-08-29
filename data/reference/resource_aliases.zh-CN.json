@@ -1,0 +1,14 @@
+{
+  "locale": "zh-CN",
+  "aliases": {
+    "金币": "COIN",
+    "硬币": "COIN",
+    "宝石": "GEM",
+    "珍珠": "PEARL",
+    "星星": "STAR",
+    "剑": "SWORD",
+    "长剑": "SWORD",
+    "盾": "SHIELD",
+    "盾牌": "SHIELD"
+  }
+}
